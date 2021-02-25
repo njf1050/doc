@@ -1,0 +1,48 @@
+/* body  */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#flex-wrapper {
+  display: flex;
+  /* flex-flow: row wrap; */
+}
+/* navigation bar */
+#navbar {
+  padding: 1em 4em 0 1em;
+  background: #aa96da;
+  font-family: "Oswald", sans-serif;
+}
+a {
+  display: block;
+  line-height: 2.5em;
+}
+/* main documentation */
+
+#main-doc {
+  background: #fcbad3;
+  padding: 6em 2em 2em;
+  line-height: 2em;
+}
+h2 {
+  margin: 1em 0;
+}
+p {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+li {
+  margin: 1em 3em;
+  font-size: 1.1em;
+}
+
+.code-block {
+  background: #a8a6a3;
+}
+
+@media (max-width:768px){
+    #flex-wrapper{
+        flex-flow: column wrap;
+    }
+}
